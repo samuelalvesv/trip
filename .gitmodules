@@ -7,3 +7,6 @@
 [submodule ".agents/vendor/agent-skills"]
 	path = .agents/vendor/agent-skills
 	url = https://github.com/jwynia/agent-skills.git
+[submodule ".agents/vendor/mattpocock-skills"]
+	path = .agents/vendor/mattpocock-skills
+	url = https://github.com/mattpocock/skills.git
