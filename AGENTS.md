@@ -55,3 +55,18 @@
 - **Otimização de Contexto via `rtk`**: Comandos de terminal executados pelo agente utilizam o prefixo `rtk` para compressão e economia de contexto.
 - **Isolamento Local ao Repositório**: A execução de comandos, instalação de dependências e configurações permanecem estritamente contidas na raiz do workspace do projeto.
 - **Integridade do Controle de Versão**: O agente realiza apenas operações de leitura e inspeção de estado no controle de versão, cabendo ao desenvolvedor humano o gerenciamento de alterações, ramificações, histórico e envio ao repositório remoto.
+
+## Agent skills
+
+### Issue tracker
+
+Rastreamento de issues e especificações via arquivos Markdown locais. Consulte [docs/agents/issue-tracker.md](docs/agents/issue-tracker.md).
+
+### Triage labels
+
+Vocabulário de rótulos de triagem do repositório. Consulte [docs/agents/triage-labels.md](docs/agents/triage-labels.md).
+
+### Domain docs
+
+Documentação de domínio em contexto único (single-context). Consulte [docs/agents/domain.md](docs/agents/domain.md).
+
