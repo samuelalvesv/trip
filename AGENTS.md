@@ -45,13 +45,17 @@
 - Todo o código mantém conformidade integral na análise estática do Oxlint e na compilação e verificação de tipos do TypeScript.
 - Apontamentos do analisador estático ou do compilador são solucionados diretamente na modelagem e na estrutura do código.
 
-## Uso Obrigatório dos Recursos em `.agents/` (Plugins e MCPs)
+## Uso Obrigatório dos Recursos em `.agents/` (Plugins, Skills e MCPs)
 
-O desenvolvimento consulta e aciona ativamente todos os servidores MCP e plugins declarados em [.agents/plugins.json](.agents/plugins.json) e [.agents/mcp_config.json](.agents/mcp_config.json):
+O desenvolvimento consulta e aciona ativamente todos os servidores MCP, plugins e habilidades declarados em [.agents/plugins.json](.agents/plugins.json), [.agents/skills.json](.agents/skills.json) e [.agents/mcp_config.json](.agents/mcp_config.json):
 
-1. **Servidor MCP do Material UI**: Consultar a documentação e especificações oficiais do Material UI ao projetar, estilizar ou refatorar elementos de interface.
-2. **Plugin e Servidor MCP da Vercel**: Acionar as habilidades do plugin e o servidor MCP da plataforma durante a criação e revisão de componentes, configuração de variáveis de ambiente, arquitetura de entrega contínua, verificação ponta a ponta e inspeção de infraestrutura.
-3. **Plugin Ponytail**: Aplicar continuamente as habilidades de simplicidade, revisão de qualidade e auditoria arquitetural para garantir entregas enxutas e livres de complexidade acidental.
+1. **Servidor MCP do Material UI (`mui-mcp`)**: Consultar a documentação e especificações oficiais do Material UI ao projetar, estilizar ou refatorar elementos de interface.
+2. **Plugin e Servidor MCP da Vercel (`vercel-plugin` e `vercel`)**: Acionar as habilidades do plugin e o servidor MCP da plataforma durante a criação e revisão de componentes, configuração de variáveis de ambiente, arquitetura de entrega contínua, verificação ponta a ponta e inspeção de infraestrutura.
+3. **Plugin Ponytail (`ponytail`)**: Aplicar continuamente as habilidades de simplicidade, revisão de qualidade e auditoria arquitetural para garantir entregas enxutas e livres de complexidade acidental.
+4. **Servidor MCP Context7 (`context7`)**: Consultar documentação atualizada e especificações técnicas das bibliotecas e dependências do ecossistema.
+5. **Servidor MCP Google Maps Code Assist (`google-maps-code-assist`)**: Consultar a documentação oficial e boas práticas da plataforma Google Maps para funcionalidades geoespaciais, mapas, rotas e lugares.
+6. **Servidores MCP de Navegador e Automação (`chrome-devtools` e `playwright`)**: Executar inspeção de DOM, rede e performance em tempo de execução, depuração visual e validação automatizada de fluxos de interface ponta a ponta.
+7. **Catálogo de Habilidades (`agent-skills` em `.agents/skills.json`)**: Acionar as habilidades de engenharia de requisitos, desenho de sistemas, decisões arquiteturais, análise de produto, decomposição de tarefas, boas práticas de TypeScript, PWA com React e Vite, revisão de código e auditoria de segurança em todo o fluxo de desenvolvimento.
 
 ## Escopo de Terminal, Controle de Versão e Ambiente
 

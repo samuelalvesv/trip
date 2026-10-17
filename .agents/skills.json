@@ -1,0 +1,65 @@
+{
+  "entries": [
+    {
+      "path": ".agents/vendor/agent-skills/skills/development/architecture"
+    },
+    {
+      "path": ".agents/vendor/agent-skills/skills/tech/development/architecture"
+    },
+    {
+      "path": ".agents/vendor/agent-skills/skills/tech/development/quality"
+    },
+    {
+      "path": ".agents/vendor/agent-skills/skills/tech/development/tooling",
+      "include_only": [
+        "typescript-best-practices",
+        "devcontainer",
+        "npm-package",
+        "npx-cli",
+        "scraper-builder"
+      ]
+    },
+    {
+      "path": ".agents/vendor/agent-skills/skills/tech/development/workflow",
+      "exclude": [
+        "gitea-.*"
+      ]
+    },
+    {
+      "path": ".agents/vendor/agent-skills/skills/tech/frontend/design",
+      "include_only": [
+        "frontend-design"
+      ]
+    },
+    {
+      "path": ".agents/vendor/agent-skills/skills/tech/frontend/pwa"
+    },
+    {
+      "path": ".agents/vendor/agent-skills/skills/tech/security"
+    },
+    {
+      "path": ".agents/vendor/agent-skills/skills/general/analysis"
+    },
+    {
+      "path": ".agents/vendor/agent-skills/skills/general/ideation"
+    },
+    {
+      "path": ".agents/vendor/agent-skills/skills/general/meta"
+    },
+    {
+      "path": ".agents/vendor/agent-skills/skills/general/productivity"
+    },
+    {
+      "path": ".agents/vendor/agent-skills/skills/general/research/methodology"
+    },
+    {
+      "path": ".agents/vendor/agent-skills/skills/general/research/verification"
+    },
+    {
+      "path": ".agents/vendor/agent-skills/skills/general/writing/revision",
+      "include_only": [
+        "summarization"
+      ]
+    }
+  ]
+}

@@ -4,3 +4,6 @@
 [submodule ".agents/vendor/ponytail"]
 	path = .agents/vendor/ponytail
 	url = https://github.com/dietrichgebert/ponytail.git
+[submodule ".agents/vendor/agent-skills"]
+	path = .agents/vendor/agent-skills
+	url = https://github.com/jwynia/agent-skills.git
