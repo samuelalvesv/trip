@@ -1,12 +1,3 @@
-[submodule ".agents/vendor/vercel-plugin"]
-	path = .agents/vendor/vercel-plugin
-	url = https://github.com/vercel/vercel-plugin.git
-[submodule ".agents/vendor/ponytail"]
-	path = .agents/vendor/ponytail
-	url = https://github.com/dietrichgebert/ponytail.git
 [submodule ".agents/vendor/agent-skills"]
 	path = .agents/vendor/agent-skills
 	url = https://github.com/jwynia/agent-skills.git
-[submodule ".agents/vendor/mattpocock-skills"]
-	path = .agents/vendor/mattpocock-skills
-	url = https://github.com/mattpocock/skills.git

@@ -1,18 +1,6 @@
 {
   "entries": [
     {
-      "path": ".agents/vendor/mattpocock-skills/skills/engineering"
-    },
-    {
-      "path": ".agents/vendor/mattpocock-skills/skills/productivity"
-    },
-    {
-      "path": ".agents/vendor/mattpocock-skills/skills/in-progress"
-    },
-    {
-      "path": ".agents/vendor/mattpocock-skills/skills/misc"
-    },
-    {
       "path": ".agents/vendor/agent-skills/skills/development/architecture"
     },
     {
