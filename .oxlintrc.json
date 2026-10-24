@@ -81,5 +81,5 @@
     "typescript/only-throw-error": "error",
     "typescript/use-unknown-in-catch-callback-variable": "error"
   },
-  "ignorePatterns": ["dist", "node_modules", ".agents/**"]
+  "ignorePatterns": ["dist", "coverage", "node_modules", ".agents/**"]
 }
