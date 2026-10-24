@@ -1,0 +1,3 @@
+# Suíte de Testes com Vitest 5, Happy DOM e Quality Gate Bloqueante no GitHub Actions
+
+A validação automatizada de domínio, protocolos e fluxos de interface utiliza Vitest 5, `@vitest/coverage-v8`, `happy-dom` e `@testing-library/react`, compartilhando nativamente o pipeline Vite 8 e Oxc/TypeScript 7 sem transpiladores paralelos (`ts-jest` ou Babel) e sem o custo de memória do `jsdom`. O workflow de integração contínua (`.github/workflows/ci.yml`) bloqueia qualquer alteração que falhe em auditoria de dependências, `oxlint --deny-warnings`, `tsc -b`, cobertura de testes V8 ou geração dos artefatos de produção do PWA (`manifest.webmanifest` e `sw.js`).

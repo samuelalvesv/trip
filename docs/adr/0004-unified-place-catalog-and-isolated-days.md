@@ -1,0 +1,3 @@
+# Catálogo Unificado de Locais (Places) e Isolamento Estrito entre Dias
+
+Em vez de manter uma entidade separada para hospedagens (com datas de check-in/check-out e regras de transição matinal/noturna) e exigir repetição de endereços em cada parada, a viagem mantém um catálogo único de **Places (Locais)** (onde hotéis, restaurantes e atrações são cadastrados uma única vez com link obrigatório do Google Maps e coordenadas validadas) e cada **Stop (Parada)** apenas referencia um `placeId` em uma data e horário. Os dias do roteiro são estritamente isolados entre si: paradas cujo horário de saída estimado ultrapasse `23:59` exibem o indicador visual `(+1d)` no próprio dia de início, sem invadir nem alterar a programação do dia seguinte.
